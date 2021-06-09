@@ -5,9 +5,8 @@ export const Nav = styled.nav`
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #000;
+  background: #808080;
   height: 92px;
-  font-family: 'Dancing Script', cursive;
 `;
 
 export const NavMenu = styled.div` 
