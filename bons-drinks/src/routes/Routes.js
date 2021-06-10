@@ -1,10 +1,10 @@
 import React from 'react'
 import { Route, Switch } from 'react-router'
-import AboutUs from '../pages/AboutUs/AboutUs'
-import Contact from '../pages/Contact/Contact'
-import Drinks from '../pages/Drinks/Drinks'
+import AboutUs from '../pages/Sobre/Sobre'
+import Contact from '../pages/Contato/Contato'
+import Drinks from '../pages/Bebidas/Bebidas'
 import Home from '../pages/Home'
-import OurTime from '../pages/OurTime/OurTime'
+import OurTime from '../pages/Time/Time'
 
 const Routes = () => {
     return (
@@ -12,7 +12,7 @@ const Routes = () => {
         <Route exact path="/">
             <Home />
         </Route>
-        <Route path="/drinks">
+        <Route path="/bebidas">
             <Drinks />
         </Route>
         <Route path="/sobrenos">
@@ -21,7 +21,7 @@ const Routes = () => {
         <Route path="/nossotime">
             <OurTime />
         </Route>
-        <Route path="/contato">
+        <Route path="/contato"> 
             <Contact />
         </Route>
     </Switch>

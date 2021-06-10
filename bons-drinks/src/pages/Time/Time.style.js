@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
 export const OurTimeWrapper = styled.div`
-    
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
+background-color: #555
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
     text-align: center;
     gap: 30px;
     height: 100vh;;

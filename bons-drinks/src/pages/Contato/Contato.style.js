@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const ContainerContact = styled.div`
-    display: flex;
+display: flex;
     flex-direction: column;
-    justify-content: center;
+    
     align-items: center;
     height: 100vh;
+    background-color: #555
 `

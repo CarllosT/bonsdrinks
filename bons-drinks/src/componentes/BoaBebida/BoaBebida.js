@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Footer from '../Footer/Footer'
-import { Container, ContainerWrapper, DrinksCard } from './DrinksPop.style';
+import { Container, ContainerWrapper, DrinksCard } from './BoaBebida.style';
 
-const DrinksPop = () => {
+const BoaBebida = () => {
     const [drinks, setDrinks] = useState([])
 
     useEffect(() =>{
@@ -31,4 +31,4 @@ const DrinksPop = () => {
     )
 }
 
-export default DrinksPop;
+export default BoaBebida;

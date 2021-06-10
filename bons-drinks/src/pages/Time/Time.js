@@ -1,10 +1,10 @@
 import React from 'react'
-import { Container } from '../AboutUs/AboutUs.style'
-import { OurTimeWrapper } from './OurTime.style'
+import { Container } from '../Sobre/Sobre.style'
+import { OurTimeWrapper } from './Time.style'
 import NavBar from '../../componentes/Nav/NavBar'
 import Footer from '../../componentes/Footer/Footer'
 
-const OurTime = () => {
+const Time = () => {
     return (
         <>
         <NavBar />
@@ -32,4 +32,4 @@ const OurTime = () => {
     )
 }
 
-export default OurTime
+export default Time

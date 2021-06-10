@@ -28,4 +28,4 @@ export const NavLinks = styled(Link)`
   &: hover{
     color: yellow;
   }
-`;
+`

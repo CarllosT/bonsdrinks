@@ -3,9 +3,9 @@ import Form from '../../componentes/Form/Form'
 import { FormDiv } from '../../componentes/Form/Form.style'
 import NavBar from '../../componentes/Nav/NavBar'
 import Footer from '../../componentes/Footer/Footer'
-import { ContainerContact } from './Contact.style'
+import { ContainerContact } from './Contato.style'
 
-const Contact = () => {
+const Contato = () => {
     return (
         <>
         <NavBar />
@@ -20,4 +20,4 @@ const Contact = () => {
     )
 }
 
-export default Contact
+export default Contato

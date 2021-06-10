@@ -1,5 +1,5 @@
 import React from 'react'
-import { Nav, NavLinks, NavMenu } from './NavBar.style';
+import { Nav, NavLinks, NavMenu } from './NavBar.Style';
 
 const NavBar = () => {
     return (
@@ -9,7 +9,7 @@ const NavBar = () => {
             <NavLinks exact to='/'>
               BoaBebida
             </NavLinks>
-            <NavLinks to='drinks'>
+            <NavLinks to='Bebidas'>
               Drinks
             </NavLinks>
             <NavLinks to='sobrenos'>
